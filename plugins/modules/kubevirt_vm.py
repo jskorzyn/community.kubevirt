@@ -245,7 +245,7 @@ kubevirt_vm:
 import copy
 import traceback
 
-from ansible_collections.community.kubernetes.plugins.module_utils.common import AUTH_ARG_SPEC
+from ansible_collections.kubernetes.core.plugins.module_utils.common import AUTH_ARG_SPEC
 from ansible_collections.community.kubevirt.plugins.module_utils.kubevirt import (
     virtdict,
     KubeVirtRawModule,
