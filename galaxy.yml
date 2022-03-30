@@ -2,14 +2,15 @@
 
 namespace: community
 name: kubevirt 
-version: 1.0.0
+version: 1.0.1
 readme: README.md
 authors:
   - kubevirt (github.com/kubevirt)
   - tima (github.com/tima)
 dependencies:
-  community.kubernetes: '>=1.0.0,<2.0.0'
-description: 
+#  community.kubernetes: '>=1.0.0,<2.0.0'
+  kubernetes.core: '2.3.0'
+description:
 license_file: LICENSE
 tags:
 # tags so people can search for collections https://galaxy.ansible.com/search
